@@ -47,30 +47,30 @@ public class BasicHamburger {
     }
 
     public double itemizeHamburger() {
-        double hambuergerPrice = this.price;
-        System.out.println(this.name + " hamburger " + " on a " + this.breadRollType + " roll"
-                + "price is " + this.price);
+        double hamburgerPrice = this.price;
+        System.out.println(this.name + " hamburger " + "on a " + this.breadRollType + " roll " + "with " + this.meat
+                + ", price is " + this.price);
 
         if (this.addition1Name != null) {
-            hambuergerPrice += this.addition1Price;
+            hamburgerPrice += this.addition1Price;
             System.out.println("Added " + this.addition1Name + " for an extra " + this.addition1Price);
         }
 
         if (this.addition2Name != null) {
-            hambuergerPrice += this.addition2Price;
+            hamburgerPrice += this.addition2Price;
             System.out.println("Added " + this.addition2Name + " for an extra " + this.addition2Price);
         }
 
         if (this.addition3Name != null) {
-            hambuergerPrice += this.addition3Price;
+            hamburgerPrice += this.addition3Price;
             System.out.println("Added " + this.addition3Name + " for an extra " + this.addition3Price);
         }
 
         if (this.addition4Name != null) {
-            hambuergerPrice += this.addition4Price;
+            hamburgerPrice += this.addition4Price;
             System.out.println("Added " + this.addition4Name + " for an extra " + this.addition4Price);
         }
-            return hambuergerPrice;
+            return hamburgerPrice;
     }
 
 }
